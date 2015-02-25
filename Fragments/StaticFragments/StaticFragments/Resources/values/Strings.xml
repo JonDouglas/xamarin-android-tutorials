@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">I am the first activity!</string>
+  <string name="other">I am the other activity!</string>
+    <string name="ApplicationName">Static Fragment Demo</string>
+</resources>
