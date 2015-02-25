@@ -1,3 +1,3 @@
-# xamarin-android-tutorials
+# Fragments
 
-Each project represents a tutorial in Android.
+Basic Fragment Information Here
