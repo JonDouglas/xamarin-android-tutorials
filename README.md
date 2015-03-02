@@ -19,6 +19,7 @@ This project is aimed for myself to become a better developer overall. I will be
 - Navigation Drawer
 - Notifications
 - Views
+- WakefulIntentService
 
 **IP = In Progress**
 
