@@ -7,7 +7,7 @@ This project is aimed for myself to become a better developer overall. I will be
 ## Roadmap ##
 
 - Activities
-- Fragments(IP)
+- ~~Fragments~~
 - BroadcastReceivers
 - Services
 - Support Libraries
@@ -19,7 +19,7 @@ This project is aimed for myself to become a better developer overall. I will be
 - Navigation Drawer
 - Notifications
 - Views
-- WakefulIntentService
+- ~~WakefulIntentService~~
 
 **IP = In Progress**
 
