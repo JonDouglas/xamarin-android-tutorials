@@ -1,0 +1,3 @@
+﻿<WakefulIntentService
+  listener="com.jondouglas.wakeful.demo.AppListener"
+/>

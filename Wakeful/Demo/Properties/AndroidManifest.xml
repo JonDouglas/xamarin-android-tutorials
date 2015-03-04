@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.jondouglas.wakeful.demo" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk />
+	<application android:label="Demo" android:icon="@drawable/Icon"></application>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<receiver android:name="com.jondouglas.wakeful.AlarmReceiver">
+		<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED" />
+		</intent-filter>
+		<meta-data android:name="com.jondouglas.wakeful" android:resource="@xml/wakeful" />
+	</receiver>
+</manifest>

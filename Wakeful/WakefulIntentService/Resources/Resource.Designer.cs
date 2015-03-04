@@ -40,11 +40,11 @@ namespace WakefulIntentService
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f020001
-			public static int ApplicationName = 2130837505;
+			// aapt resource value: 0x7f030001
+			public static int ApplicationName = 2130903041;
 			
-			// aapt resource value: 0x7f020000
-			public static int Hello = 2130837504;
+			// aapt resource value: 0x7f030000
+			public static int Hello = 2130903040;
 			
 			static String()
 			{
@@ -52,6 +52,22 @@ namespace WakefulIntentService
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f020000
+			public static int wakeful = 2130837504;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

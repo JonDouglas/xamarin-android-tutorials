@@ -40,7 +40,7 @@ namespace WakefulIntentService
             context.StartService(intent);
         }
 
-        public static void SendWakefulWork(Context context, Class classService)
+        public static void SendWakefulWork(Context context, Type classService)
         {
             SendWakefulWork(context, new Intent(context, classService));
         }
