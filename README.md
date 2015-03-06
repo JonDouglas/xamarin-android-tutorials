@@ -23,6 +23,10 @@ This project is aimed for myself to become a better developer overall. I will be
 
 **IP = In Progress**
 
+Majority of these samples come from Mark Murphy's "The Busy Coder's Guide to Android Development"
+
+https://github.com/commonsguy/cw-omnibus/
+
 ## License ##
 
 Please see the LICENSE.md file for further license information.
