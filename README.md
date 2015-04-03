@@ -17,7 +17,7 @@ This project is aimed for myself to become a better developer overall. I will be
 - Location
 - Google Maps
 - Navigation Drawer
-- Notifications
+- Notifications(IP)
 - Views
 - ~~WakefulIntentService~~
 
