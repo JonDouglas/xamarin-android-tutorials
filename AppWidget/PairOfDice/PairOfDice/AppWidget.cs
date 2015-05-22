@@ -14,7 +14,7 @@ using Math = Java.Lang.Math;
 
 namespace PairOfDice
 {
-    [BroadcastReceiver(Label = "Pair Of Dice", Name = "pairofdice.AppWidget")]
+    [BroadcastReceiver(Label = "Pair Of Dice")]
     [IntentFilter(new string[] { "android.appwidget.action.APPWIDGET_UPDATE" })]
     [MetaData("android.appwidget.provider", Resource = "@xml/widget_provider")]
     public class AppWidget : AppWidgetProvider
@@ -23,7 +23,7 @@ namespace PairOfDice
 
         public override void OnUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds)
         {
-            ComponentName me = new ComponentName(context, typeof(AppWidget).Name);
+            ComponentName me = new ComponentName(context, Java.Lang.Class.FromType(typeof(AppWidget)).Name);
 
             appWidgetManager.UpdateAppWidget(me, BuildUpdate(context, appWidgetIds));
         }
