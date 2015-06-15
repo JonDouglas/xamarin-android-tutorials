@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Alias</string>
+  <string name="app_name">MainActivity</string>
+  <string name="app_name2">This Is The Alias</string>
+</resources>
