@@ -186,7 +186,7 @@ namespace Geofence
 
         public void PopulateGeofenceList()
         {
-            foreach (var entry in Constants.HOME_LANDMARKS)
+            foreach (var entry in Constants.BAY_AREA_LANDMARKS)
             {
                 mGeofenceList.Add(new GeofenceBuilder()
                     .SetRequestId(entry.Key)

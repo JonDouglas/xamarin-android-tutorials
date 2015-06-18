@@ -39,11 +39,8 @@ namespace Geofence
             {"GOOGLE", new LatLng(37.422611, -122.0840577)}
         };
 
-        public static Dictionary<string, LatLng> HOME_LANDMARKS = new Dictionary<string, LatLng>()
-        {
-            {"HOUSE", new LatLng(41.169045, -111.986887)},
-            {"PARK", new LatLng(41.169118, -111.990481)}
-        };
+
+        //ADD YOUR OWN LOCAL COORDINATES HERE TO TEST OUT THE SERVICE
 
             
     }
