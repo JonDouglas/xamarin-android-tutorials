@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.gms.location.sample.geofencing" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk />
+	<application android:label="Geofence" android:icon="@drawable/Icon">
+    <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+  </application>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>
